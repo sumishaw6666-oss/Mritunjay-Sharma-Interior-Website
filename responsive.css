@@ -1,0 +1,143 @@
+/* Responsive styles — Mritunjay Sharma Interior Work */
+@media (min-width: 1400px) {
+  .hero-content { max-width: 1200px; }
+  .hero-section, .hero-carousel, .hero-carousel .owl-stage-outer, .hero-carousel .owl-stage, .hero-carousel .owl-item, .hero-slide { min-height: 740px; height: 740px; }
+}
+@media (max-width: 1199.98px) {
+  .navbar-nav .nav-link { padding-left: 7px !important; padding-right: 7px !important; font-size: 9px; }
+  .brand-logo { width: 46px; height: 46px; }
+  .brand-text strong { font-size: 10px; }
+  .hero-content h1 { font-size: 55px; }
+  .process-steps { gap: 3px; }
+  .process-icon { width: 47px; height: 47px; }
+}
+@media (max-width: 991.98px) {
+  .top-strip { padding: 8px 0; }
+  .site-header { top: 58px; }
+  .navbar { min-height: 72px; }
+  .navbar-collapse { background: rgba(20,16,12,.97); padding: 12px 18px 20px; border-top: 1px solid rgba(255,255,255,.1); margin: 0 -15px; }
+  .navbar-nav .nav-link { padding: 10px 3px !important; font-size: 11px; }
+  .nav-quote { margin: 8px 0 0; }
+  .nav-quote .btn { display: inline-block; }
+  .hero-section, .hero-carousel, .hero-carousel .owl-stage-outer, .hero-carousel .owl-stage, .hero-carousel .owl-item, .hero-slide { min-height: 640px; height: 640px; }
+  .hero-content { padding-top: 75px; }
+  .hero-content h1 { font-size: 51px; }
+  .hero-side-contact { display: none; }
+  .section-padding { padding: 72px 0; }
+  .about-image { height: 365px; }
+  .choose-layout { grid-template-columns: 1fr 38%; }
+  .choose-image { height: 300px; }
+  .process-steps { flex-wrap: wrap; justify-content: flex-start; row-gap: 20px; }
+  .process-step { flex: 0 0 18%; }
+  .process-arrow { display: none; }
+  .number-item:nth-child(2) { border-right: 0; }
+  .number-item:nth-child(1), .number-item:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,.1); }
+}
+@media (max-width: 767.98px) {
+  body { font-size: 13px; }
+  .top-strip .container-fluid > .d-flex { justify-content: center !important; gap: 3px; }
+  .top-strip > div > div > span { display: none; }
+  .top-strip-links { width: 100%; justify-content: center; gap: 14px; font-size: 9px; }
+  .top-strip-links a:last-child { max-width: 65%; overflow-wrap: anywhere; }
+  .site-header { top: 35px; }
+  .navbar { min-height: 68px; }
+  .brand-logo { width: 43px; height: 43px; }
+  .brand-text strong { font-size: 10px; }
+  .brand-text small { font-size: 8px; }
+  .hero-section, .hero-carousel, .hero-carousel .owl-stage-outer, .hero-carousel .owl-stage, .hero-carousel .owl-item, .hero-slide { min-height: 610px; height: 610px; }
+  .hero-slide { background-position: center; }
+  .hero-overlay { background: linear-gradient(90deg, rgba(17,13,9,.84), rgba(17,13,9,.45)), linear-gradient(0deg, rgba(17,13,9,.3), transparent); }
+  .hero-content { padding-top: 70px; }
+  .hero-content h1 { font-size: clamp(37px, 8vw, 49px); }
+  .hero-content p { font-size: 12px; max-width: 370px; }
+  .hero-actions { gap: 8px; }
+  .hero-actions .btn { min-width: 0; padding: 13px 14px; font-size: 9px; }
+  .hero-carousel .owl-nav button.owl-prev { left: 10px; }
+  .hero-carousel .owl-nav button.owl-next { right: 10px; }
+  .hero-carousel .owl-dots { left: 15px; bottom: 22px; }
+  .hero-bottom-note { right: 15px; bottom: 25px; font-size: 9px; }
+  .section-padding { padding: 60px 0; }
+  .about-image-wrap { max-width: 550px; margin: 0 auto 10px; }
+  .about-image { height: 340px; }
+  .image-caption { left: 0; bottom: 38px; }
+  .section-title { font-size: 33px; }
+  .section-heading { margin-bottom: 30px; }
+  .section-heading .section-title { font-size: 31px; }
+  .service-card { min-height: 190px; padding: 22px 12px; }
+  .service-icon { width: 48px; height: 48px; font-size: 20px; margin-bottom: 13px; }
+  .service-card h3 { font-size: 15px; }
+  .service-card p { font-size: 10px; }
+  .choose-layout { grid-template-columns: 1fr 40%; gap: 12px; }
+  .choose-image { height: 280px; }
+  .check-list li { font-size: 10px; }
+  .process-steps { justify-content: space-between; }
+  .process-step { flex: 0 0 21%; }
+  .portfolio-card { height: 245px; }
+  .testimonial-card { margin: 8px; padding: 25px 22px 20px; }
+  .testimonial-card > p { font-size: 15px; }
+  .number-item { gap: 9px; }
+  .number-item > i { font-size: 24px; }
+  .number-item strong { font-size: 18px; }
+  .number-item small { font-size: 9px; }
+  .cta-card { min-height: 330px; }
+  .cta-content { padding: 30px; }
+  .contact-info-card, .contact-form-card { padding: 27px; }
+  .footer-bottom { margin-top: 30px; }
+}
+@media (max-width: 575.98px) {
+  .top-strip-links { gap: 10px; }
+  .top-strip-links a { font-size: 8px; }
+  .site-header { top: 36px; }
+  .brand-lockup { gap: 7px; }
+  .brand-logo { width: 39px; height: 39px; }
+  .brand-text strong { font-size: 9px; letter-spacing: .08em; }
+  .brand-text small { letter-spacing: .18em; }
+  .navbar-toggler { padding: 5px 8px; }
+  .hero-section, .hero-carousel, .hero-carousel .owl-stage-outer, .hero-carousel .owl-stage, .hero-carousel .owl-item, .hero-slide { min-height: 590px; height: 590px; }
+  .hero-content { padding-left: 29px; padding-right: 29px; }
+  .hero-content h1 { font-size: 37px; }
+  .hero-content p { max-width: 300px; }
+  .hero-actions { align-items: flex-start; flex-direction: column; }
+  .hero-actions .btn { min-width: 178px; }
+  .hero-bottom-note { display: none; }
+  .hero-carousel .owl-nav { display: none; }
+  .section-padding { padding: 52px 0; }
+  .about-image { height: 290px; }
+  .section-title { font-size: 30px; }
+  .section-heading .section-title { font-size: 28px; }
+  .section-heading > p { font-size: 12px; }
+  .about-stats { margin-top: 20px; }
+  .stat-mini { padding-left: 8px; padding-right: 8px; }
+  .stat-mini strong { font-size: 14px; }
+  .stat-mini span { font-size: 9px; }
+  .service-col { padding: 5px; }
+  .service-card { min-height: 180px; padding: 18px 9px 21px; }
+  .service-card h3 { font-size: 14px; }
+  .service-card p { font-size: 9px; }
+  .choose-layout { grid-template-columns: 1fr; }
+  .choose-image { height: 260px; grid-row: 1; }
+  .process-steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px 12px; }
+  .process-step { flex: initial; }
+  .process-icon { width: 52px; height: 52px; }
+  .portfolio-filters { gap: 4px; }
+  .portfolio-filter { padding: 8px 10px; font-size: 9px; }
+  .portfolio-card { height: 240px; }
+  .number-item { justify-content: flex-start; padding: 15px 8px 15px 16px; }
+  .number-item:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.1); }
+  .number-item:nth-child(even) { border-right: 0; }
+  .number-item > i { font-size: 21px; }
+  .number-item strong { font-size: 17px; }
+  .number-item small { font-size: 8px; }
+  .faq-question { font-size: 14px; }
+  .cta-card { min-height: 340px; }
+  .cta-content { padding: 25px 22px; }
+  .cta-content h2 { font-size: 34px; }
+  .contact-info-card, .contact-form-card { padding: 23px 19px; }
+  .contact-info-card h3, .contact-form-card h3 { font-size: 23px; }
+  .footer-links { margin-bottom: 25px !important; }
+  .site-footer { padding-top: 48px; }
+  .footer-bottom { flex-direction: column; }
+  .floating-contact { right: 10px; bottom: 78px; gap: 7px; }
+  .floating-contact a { width: 39px; height: 39px; font-size: 15px; }
+  .back-to-top { right: 12px; bottom: 23px; }
+}
